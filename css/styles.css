@@ -13,6 +13,7 @@ body{
     font-size: 1rem;
 }
 
+/*Heading CSS */
 h1{
     font-size: 6.5rem;    /* 1em= 100% = 16px */
     font-family: 'Great Vibes', cursive;
@@ -54,17 +55,6 @@ h4,h5,h6{
     font-weight: 200;
 }
 
-.navbar-img{
-    border-radius: 100%;
-    /* width:15%; */
-}
-/* .navbar-brand{
-    text-align: left;
-    padding-left: 10%;
-} */
-li a.active {
-    color: #213e3b;
-}
 .navbar-toggler {
     border-color: #213e3b;
 }
@@ -74,6 +64,9 @@ li a.active {
 #home-top{
     background-color: #e4f6f6;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: #41aea9;
+}
 
 hr{
     border-style: none;
@@ -82,30 +75,19 @@ hr{
     width: 5%;
     margin: 100px auto;
 }
-
+#programmer{
+    margin-top: 0.5rem;
+    font-weight: normal;
+}
 p{
     color:#40514E;
-}
-
-.top-cloud{
-    position: absolute;
-    right: 420px;
-    top:50px;
-}
-
-.bottom-cloud{
-    position: absolute;
-    left: 420px;
-    bottom:380px;
 }
 
 .btn{
     margin: 20px auto 0 auto;
     border-radius: 5%;
     color: #F9F9F9;
-    font-family: sans-serif;
-    font-weight: 100;
-    padding: 5px 15px;
+    font-family: 'Montserrat', sans-serif;
     background-color: #11999E;
     text-decoration: none;
     display: inline-block;
@@ -113,31 +95,24 @@ p{
 
 }
 
-.clouds{
-    width: 7%;
-}
-
-.mountain{
-    padding-top: 15px;
-    width:30%
-
+.btn:hover{
+    color: #F9F9F9;
+    background-color: #213e3b;
 }
 
 .profile{
     line-height: 2;
 }
 
-.profilepic{
-    border-radius: 100%;
-    width:14%;
-    margin-bottom: 5px;
+.skill-row{
+    width: 60%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 
-
-.code-image{
-    width: 8.5rem;
-    float: right;
-    margin-left: 30px;
+.skill-name{
+    line-height: 2.5;
 }
 
 .contact-me{
@@ -156,6 +131,41 @@ p{
     color: #EAF6F6;
 }
 
+/* IMAGES USED */
+
+.clouds{
+    width: 7%;
+}
+
+.mountain{
+    padding-top: 15px;
+    width:30%;
+}
+.top-cloud{
+    position: absolute;
+    right: 420px;
+    top:50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 420px;
+    bottom:380px;
+}
+.navbar-img{
+    border-radius: 100%;
+}
+.profilepic{
+    border-radius: 100%;
+    width:14%;
+    margin-bottom: 5px;
+}
+.code-image{
+    width: 8.5rem;
+    float: right;
+    margin-left: 30px;
+}
+
 .webd-image{
     width:8.5rem;
     float: left;
@@ -163,23 +173,12 @@ p{
 }
 
 
-.skill-row{
-    width: 60%;
-    margin: 100px auto;
-    text-align: left;
-    line-height: 2;
-}
-
-.skill-name{
-    line-height: 2.5;
-}
-
+/* Containers */
 .top-container{
     background-color: #e4f6f6;
     padding-top: 3%;
     
 }
-
 
 .middle-container{
     padding : 80px 0 80px;
@@ -189,10 +188,4 @@ p{
     background-color: #41aea9;
     padding: 20px 0 10px;
     line-height: 2;
-}
-
-
-#programmer{
-    margin-top: 0.5rem;
-    font-weight: normal;
 }
