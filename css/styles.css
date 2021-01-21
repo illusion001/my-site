@@ -49,19 +49,20 @@ h4,h5,h6{
 
 .nav-link{
     font-family: 'Montserrat', sans-serif;
+    color: #41aea9;
     font-size: 1.2rem;
     font-weight: 200;
 }
 
 .navbar-img{
     border-radius: 100%;
-    width:15%;
+    /* width:15%; */
 }
-.navbar-brand{
+/* .navbar-brand{
     text-align: left;
     padding-left: 10%;
-}
-.nav-list li a.active {
+} */
+li a.active {
     color: #213e3b;
 }
 .navbar-toggler {
