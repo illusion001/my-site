@@ -64,6 +64,9 @@ h4,h5,h6{
 .nav-list li a.active {
     color: #213e3b;
 }
+.navbar-toggler {
+    border-color: #213e3b;
+}
 .container-fluid{
     padding: 1% 14% 0;
 }
