@@ -59,7 +59,7 @@ h4,h5,h6{
     border-color: #213e3b;
 }
 .container-fluid{
-    padding: 1% 14% 0;
+    padding: 1% 14% 0 15%;
 }
 #home-top{
     background-color: #e4f6f6;
@@ -71,7 +71,7 @@ h4,h5,h6{
 hr{
     border-style: none;
     border-top: dotted 8px;
-    border-color: #baf7f3;
+    border-color: #c3f7f3;
     width: 5%;
     margin: 100px auto;
 }
@@ -157,8 +157,8 @@ p{
 }
 .profilepic{
     border-radius: 100%;
-    width:14%;
-    margin-bottom: 5px;
+    width:12%;
+    margin-bottom: 8px;
 }
 .code-image{
     width: 8.5rem;
