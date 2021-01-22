@@ -63,6 +63,8 @@ h4,h5,h6{
 }
 #home-top{
     background-color: #e4f6f6;
+    transition: top 0.3s;
+    position: sticky;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #41aea9;
