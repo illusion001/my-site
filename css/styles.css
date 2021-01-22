@@ -19,7 +19,7 @@ h1{
     font-family: 'Great Vibes', cursive;
     font-weight: 500;
     margin: 0 auto;
-    padding-top: 70px; 
+    padding-top: 130px; 
     color: #41aea9;
 }
 
@@ -63,8 +63,8 @@ h4,h5,h6{
 }
 #home-top{
     background-color: #e4f6f6;
+    position: fixed;
     transition: top 0.3s;
-    position: sticky;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #41aea9;
